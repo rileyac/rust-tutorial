@@ -1,0 +1,15 @@
+{
+    "name": "Rust Dev Container",
+    "image": "rust:latest",  
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "rust-analyzer.cargo.runBuildScripts": true,
+          "rust-analyzer.procMacro.enable": true
+        },
+        "extensions": [
+          "rust-lang.rust-analyzer"
+        ]
+      }
+    }
+  }
