@@ -1,6 +1,6 @@
 {
     "name": "Rust Dev Container",
-    "image": "rust:latest",  
+    "image": "mcr.microsoft.com/vscode/devcontainers/rust:latest",  
     "customizations": {
       "vscode": {
         "settings": {
